@@ -1,0 +1,67 @@
+.channel-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+.thumb{
+    width: 100% ;
+    /* margin-bottom: 0px; */
+}
+.thumb-row{
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+.vdo-tittle{
+    /* margin-bottom: 0px; */
+    margin-top: 0px;
+}
+.vdo-authr{
+    color: rgb(82, 73, 73);
+    margin-bottom: 0px;
+}
+.view{
+    margin-top: 5px;
+    color: rgb(82, 73, 73);
+}
+
+.vdo-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.channelpic{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+.channel-info{
+    
+    display: inline-block;
+    width: 200px;
+}
+.profile{
+    
+    width: 38px;
+    border-radius: 50px;
+}
+body{
+    margin: 0px;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.vdo-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+
+}
